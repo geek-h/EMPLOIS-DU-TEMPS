@@ -1,0 +1,392 @@
+object Form1: TForm1
+  Left = 240
+  Height = 461
+  Top = 53
+  Width = 908
+  Caption = 'EMPLOIS DU TEMPS TLE H - EFEC'
+  ClientHeight = 461
+  ClientWidth = 908
+  LCLVersion = '2.0.8.0'
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 461
+    Top = 0
+    Width = 908
+    ActivePage = TabSheet1
+    Align = alClient
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabIndex = 0
+    TabOrder = 0
+    object TabSheet1: TTabSheet
+      Caption = 'LUNDI'
+      ClientHeight = 433
+      ClientWidth = 900
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -13
+      Font.Name = 'Georgia'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      OnContextPopup = TabSheet1ContextPopup
+      ParentFont = False
+      object Image1: TImage
+        Left = 640
+        Height = 202
+        Top = 8
+        Width = 248
+      end
+      object StatusBar1: TStatusBar
+        Left = 0
+        Height = 23
+        Top = 410
+        Width = 900
+        Panels = <>
+      end
+      object GroupBox1: TGroupBox
+        Left = 8
+        Height = 193
+        Top = 24
+        Width = 568
+        Caption = 'MATIN'
+        ClientHeight = 172
+        ClientWidth = 564
+        TabOrder = 1
+        object Panel1: TPanel
+          Left = 8
+          Height = 96
+          Top = 32
+          Width = 170
+          BevelColor = clLime
+          Caption = 'ANALYSE'
+          Color = clLime
+          Font.CharSet = ANSI_CHARSET
+          Font.Color = clWhite
+          Font.Height = -27
+          Font.Name = 'Georgia'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          Font.Style = [fsBold]
+          ParentColor = False
+          ParentFont = False
+          TabOrder = 0
+          OnClick = Panel1Click
+        end
+        object Panel2: TPanel
+          Left = 192
+          Height = 96
+          Top = 32
+          Width = 170
+          BevelColor = clLime
+          Caption = 'ANALYSE'
+          Color = clLime
+          Font.CharSet = ANSI_CHARSET
+          Font.Color = clWhite
+          Font.Height = -27
+          Font.Name = 'Georgia'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          Font.Style = [fsBold]
+          ParentColor = False
+          ParentFont = False
+          TabOrder = 1
+          OnClick = Panel1Click
+        end
+        object Panel3: TPanel
+          Left = 384
+          Height = 96
+          Top = 32
+          Width = 170
+          BevelColor = clLime
+          Caption = 'ANALYSE'
+          Color = clLime
+          Font.CharSet = ANSI_CHARSET
+          Font.Color = clWhite
+          Font.Height = -27
+          Font.Name = 'Georgia'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          Font.Style = [fsBold]
+          ParentColor = False
+          ParentFont = False
+          TabOrder = 2
+          OnClick = Panel1Click
+        end
+      end
+      object GroupBox2: TGroupBox
+        Left = 8
+        Height = 161
+        Top = 240
+        Width = 592
+        Caption = 'SOIRE'
+        ClientHeight = 140
+        ClientWidth = 588
+        TabOrder = 2
+        object Panel4: TPanel
+          Left = 8
+          Height = 96
+          Top = 24
+          Width = 170
+          BevelColor = clLime
+          Caption = 'ANALYSE'
+          Color = clLime
+          Font.CharSet = ANSI_CHARSET
+          Font.Color = clWhite
+          Font.Height = -27
+          Font.Name = 'Georgia'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          Font.Style = [fsBold]
+          ParentColor = False
+          ParentFont = False
+          TabOrder = 0
+          OnClick = Panel1Click
+        end
+        object Panel5: TPanel
+          Left = 200
+          Height = 96
+          Top = 24
+          Width = 170
+          BevelColor = clLime
+          Caption = 'ANALYSE'
+          Color = clLime
+          Font.CharSet = ANSI_CHARSET
+          Font.Color = clWhite
+          Font.Height = -27
+          Font.Name = 'Georgia'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          Font.Style = [fsBold]
+          ParentColor = False
+          ParentFont = False
+          TabOrder = 1
+          OnClick = Panel1Click
+        end
+      end
+      object Label1: TLabel
+        Left = 752
+        Height = 16
+        Top = 96
+        Width = 27
+        Caption = 'GIF'
+        ParentColor = False
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'MARDI'
+      ClientHeight = 433
+      ClientWidth = 900
+      object GroupBox3: TGroupBox
+        Left = 8
+        Height = 193
+        Top = 24
+        Width = 568
+        Caption = 'MATIN'
+        TabOrder = 0
+      end
+      object GroupBox4: TGroupBox
+        Left = 8
+        Height = 161
+        Top = 240
+        Width = 592
+        Caption = 'SOIRE'
+        TabOrder = 1
+      end
+      object Image2: TImage
+        Left = 640
+        Height = 202
+        Top = 8
+        Width = 248
+      end
+      object StatusBar2: TStatusBar
+        Left = 0
+        Height = 23
+        Top = 410
+        Width = 900
+        Panels = <>
+      end
+      object Label2: TLabel
+        Left = 752
+        Height = 15
+        Top = 96
+        Width = 17
+        Caption = 'GIF'
+        ParentColor = False
+      end
+    end
+    object TabSheet3: TTabSheet
+      Caption = 'MERCREDI'
+      ClientHeight = 433
+      ClientWidth = 900
+      object GroupBox5: TGroupBox
+        Left = 8
+        Height = 193
+        Top = 24
+        Width = 568
+        Caption = 'MATIN'
+        TabOrder = 0
+      end
+      object GroupBox6: TGroupBox
+        Left = 8
+        Height = 161
+        Top = 240
+        Width = 592
+        Caption = 'SOIRE'
+        TabOrder = 1
+      end
+      object Image3: TImage
+        Left = 640
+        Height = 202
+        Top = 8
+        Width = 248
+      end
+      object StatusBar3: TStatusBar
+        Left = 0
+        Height = 23
+        Top = 410
+        Width = 900
+        Panels = <>
+      end
+      object Label3: TLabel
+        Left = 752
+        Height = 15
+        Top = 96
+        Width = 17
+        Caption = 'GIF'
+        ParentColor = False
+      end
+    end
+    object TabSheet4: TTabSheet
+      Caption = 'JEUDI'
+      ClientHeight = 433
+      ClientWidth = 900
+      object GroupBox7: TGroupBox
+        Left = 8
+        Height = 193
+        Top = 24
+        Width = 568
+        Caption = 'MATIN'
+        TabOrder = 0
+      end
+      object GroupBox8: TGroupBox
+        Left = 8
+        Height = 161
+        Top = 240
+        Width = 592
+        Caption = 'SOIRE'
+        TabOrder = 1
+      end
+      object Image4: TImage
+        Left = 640
+        Height = 202
+        Top = 8
+        Width = 248
+      end
+      object StatusBar4: TStatusBar
+        Left = 0
+        Height = 23
+        Top = 410
+        Width = 900
+        Panels = <>
+      end
+      object Label4: TLabel
+        Left = 752
+        Height = 15
+        Top = 96
+        Width = 17
+        Caption = 'GIF'
+        ParentColor = False
+      end
+    end
+    object TabSheet5: TTabSheet
+      Caption = 'VENDREDI'
+      ClientHeight = 433
+      ClientWidth = 900
+      object GroupBox9: TGroupBox
+        Left = 8
+        Height = 193
+        Top = 24
+        Width = 568
+        Caption = 'MATIN'
+        TabOrder = 0
+      end
+      object GroupBox10: TGroupBox
+        Left = 8
+        Height = 161
+        Top = 240
+        Width = 592
+        Caption = 'SOIRE'
+        TabOrder = 1
+      end
+      object Image5: TImage
+        Left = 640
+        Height = 202
+        Top = 8
+        Width = 248
+      end
+      object StatusBar5: TStatusBar
+        Left = 0
+        Height = 23
+        Top = 410
+        Width = 900
+        Panels = <>
+      end
+      object Label5: TLabel
+        Left = 752
+        Height = 15
+        Top = 96
+        Width = 17
+        Caption = 'GIF'
+        ParentColor = False
+      end
+    end
+    object TabSheet6: TTabSheet
+      Caption = 'SAMEDI'
+      ClientHeight = 433
+      ClientWidth = 900
+      object GroupBox11: TGroupBox
+        Left = 8
+        Height = 193
+        Top = 24
+        Width = 568
+        Caption = 'MATIN'
+        TabOrder = 0
+      end
+      object GroupBox12: TGroupBox
+        Left = 8
+        Height = 161
+        Top = 240
+        Width = 592
+        Caption = 'SOIRE'
+        TabOrder = 1
+      end
+      object Image6: TImage
+        Left = 640
+        Height = 202
+        Top = 8
+        Width = 248
+      end
+      object StatusBar6: TStatusBar
+        Left = 0
+        Height = 23
+        Top = 410
+        Width = 900
+        Panels = <>
+      end
+      object Label6: TLabel
+        Left = 752
+        Height = 15
+        Top = 96
+        Width = 17
+        Caption = 'GIF'
+        ParentColor = False
+      end
+    end
+  end
+end
